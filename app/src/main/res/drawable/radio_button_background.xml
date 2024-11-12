@@ -1,0 +1,18 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <!-- Shadow item -->
+        <shape
+            android:shape="rectangle">
+            <solid android:color="#70000000"/>  <!-- Semi-transparent black for shadow -->
+            <corners android:radius="40dp"/>
+        </shape>
+    </item>
+    <item>
+        <!-- Main Background item -->
+        <shape
+            android:shape="rectangle">
+            <solid android:color="#FFCC00"/> <!-- Your button's background color -->
+            <corners android:radius="40dp"/> <!-- Rounded corners -->
+        </shape>
+    </item>
+</layer-list>
