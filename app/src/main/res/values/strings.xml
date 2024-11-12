@@ -18,5 +18,14 @@
     <string name="tv_privacyline">Privacy Policy</string>
     <string name="button_Getstarted">Get Started</string>
 
+    //splashscreen
+    <string name="tv_namecountry">Islamabad, Pakistan</string>
+    <string name="tv_navigation">Navigation</string>
+    <string name="tv_Nearby">Nearby Places</string>
+    <string name="tv_livelocation">Live Location</string>
+    <string name="tv_mylocation">My Location</string>
+
+
+
 
 </resources>
