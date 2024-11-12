@@ -11,4 +11,12 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+
+    //splashscreen
+    <string name="tv_appName">WayWeGo</string>
+    <string name="tv_appline">The smart way to find your way!</string>
+    <string name="tv_privacyline">Privacy Policy</string>
+    <string name="button_Getstarted">Get Started</string>
+
+
 </resources>
