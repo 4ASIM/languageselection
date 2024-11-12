@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">भाषा ऐप</string>
+    <string name="title_activity_dashboard">डैशबोर्ड</string>
+    <string name="navigation_drawer_open">नेविगेशन ड्रॉअर खोलें</string>
+    <string name="navigation_drawer_close">नेविगेशन ड्रॉअर बंद करें</string>
+    <string name="nav_header_title">एंड्रॉइड स्टूडियो</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">नेविगेशन हेडर</string>
+    <string name="action_settings">सेटिंग्स</string>
+
+    <string name="menu_home">होम</string>
+    <string name="menu_gallery">गैलरी</string>
+    <string name="menu_slideshow">स्लाइडशो</string>
+
+    <!-- Splashscreen -->
+    <string name="tv_appName">वेवेगो</string>
+    <string name="tv_appline">आपका रास्ता खोजने का स्मार्ट तरीका!</string>
+    <string name="tv_privacyline">गोपनीयता नीति</string>
+    <string name="button_Getstarted">शुरू करें</string>
+
+    <!-- Splashscreen -->
+    <string name="tv_namecountry">इस्लामाबाद, पाकिस्तान</string>
+    <string name="tv_navigation">नेविगेशन</string>
+    <string name="tv_Nearby">नजदीकी स्थान</string>
+    <string name="tv_livelocation">लाइव लोकेशन</string>
+    <string name="tv_mylocation">मेरा स्थान</string>
+</resources>

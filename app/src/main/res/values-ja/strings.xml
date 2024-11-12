@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">言語アプリ</string>
+    <string name="title_activity_dashboard">ダッシュボード</string>
+    <string name="navigation_drawer_open">ナビゲーションドロワーを開く</string>
+    <string name="navigation_drawer_close">ナビゲーションドロワーを閉じる</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">ナビゲーションヘッダー</string>
+    <string name="action_settings">設定</string>
+
+    <string name="menu_home">ホーム</string>
+    <string name="menu_gallery">ギャラリー</string>
+    <string name="menu_slideshow">スライドショー</string>
+
+    <!-- Splashscreen -->
+    <string name="tv_appName">ウェイウェゴ</string>
+    <string name="tv_appline">あなたの道を見つける賢い方法！</string>
+    <string name="tv_privacyline">プライバシーポリシー</string>
+    <string name="button_Getstarted">始める</string>
+
+    <!-- Splashscreen -->
+    <string name="tv_namecountry">イスラマバード、パキスタン</string>
+    <string name="tv_navigation">ナビゲーション</string>
+    <string name="tv_Nearby">近くの場所</string>
+    <string name="tv_livelocation">ライブロケーション</string>
+    <string name="tv_mylocation">私の位置</string>
+</resources>
