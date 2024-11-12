@@ -26,9 +26,9 @@ class Dashboard : AppCompatActivity() {
 
         setSupportActionBar(binding.appBarDashboard.toolbar)
 
-        // Apply the saved language before setting the content view
-        val savedLanguage = LocaleHelper.getSavedLanguage(this)
-        LocaleHelper.setLocale(this, savedLanguage)
+//        // Apply the saved language before setting the content view
+//        val savedLanguage = LocaleHelper.getSavedLanguage(this)
+//        LocaleHelper.setLocale(this, savedLanguage)
 
         binding.appBarDashboard.fab.setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)

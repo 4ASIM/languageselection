@@ -34,6 +34,22 @@ class GalleryFragment : Fragment() {
         _binding = FragmentGalleryBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
+        binding.clJapan.setOnClickListener {
+            binding.radioGroupJapan.check(R.id.iv_japans)
+        }
+
+        binding.clEngland.setOnClickListener {
+            binding.radioGroupEngland.check(R.id.iv_england)
+        }
+
+        binding.clSaudia.setOnClickListener {
+            binding.radioGroupSaudia.check(R.id.iv_saudia)
+        }
+
+        binding.clIndia.setOnClickListener {
+            binding.radioGroupIndia.check(R.id.iv_indiaa)
+        }
+
         val radioGroups = arrayOf(
             binding.radioGroupJapan,
             binding.radioGroupEngland,
@@ -46,7 +62,6 @@ class GalleryFragment : Fragment() {
                 if (!suppressListener) {
                     suppressListener = true
 
-                    // Clear selection for other RadioGroups
                     radioGroups.forEach { otherGroup ->
                         if (otherGroup != group) {
                             otherGroup.clearCheck()
@@ -61,7 +76,7 @@ class GalleryFragment : Fragment() {
                         R.id.radioGroupIndia -> setLanguage("hi") // Hindi
                     }
 
-                    suppressListener = false // Re-enable listeners after clearing
+                    suppressListener = false
                 }
             }
         }
@@ -84,7 +99,6 @@ class GalleryFragment : Fragment() {
                 apply()
             }
 
-            // Update locale
             val locale = Locale(languageCode)
             Locale.setDefault(locale)
             val config = requireContext().resources.configuration
