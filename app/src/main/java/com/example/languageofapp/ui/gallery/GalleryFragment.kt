@@ -91,7 +91,6 @@ class GalleryFragment : Fragment() {
             config.setLocale(locale)
             requireContext().resources.updateConfiguration(config, requireContext().resources.displayMetrics)
 
-            // Recreate the activity to apply the language change
             isRecreating = true
             requireActivity().recreate()
         }

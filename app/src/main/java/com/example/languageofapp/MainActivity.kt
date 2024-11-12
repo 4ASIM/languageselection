@@ -14,13 +14,10 @@ class MainActivity : AppCompatActivity() {
         val savedLanguage = LocaleHelper.getSavedLanguage(this)
         LocaleHelper.setLocale(this, savedLanguage)
 
-
-
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         binding.customButton.setOnClickListener {
-
             val intent = Intent(this, Dashboard::class.java)
             startActivity(intent)
             finish()
