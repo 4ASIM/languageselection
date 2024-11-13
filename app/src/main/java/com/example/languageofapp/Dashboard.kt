@@ -26,10 +26,6 @@ class Dashboard : AppCompatActivity() {
 
         setSupportActionBar(binding.appBarDashboard.toolbar)
 
-//        // Apply the saved language before setting the content view
-//        val savedLanguage = LocaleHelper.getSavedLanguage(this)
-//        LocaleHelper.setLocale(this, savedLanguage)
-
         binding.appBarDashboard.fab.setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
@@ -37,8 +33,7 @@ class Dashboard : AppCompatActivity() {
         val drawerLayout: DrawerLayout = binding.drawerLayout
         val navView: NavigationView = binding.navView
         val navController = findNavController(R.id.nav_host_fragment_content_dashboard)
-        // Passing each menu ID as a set of Ids because each
-        // menu should be considered as top level destinations.
+
         appBarConfiguration = AppBarConfiguration(
             setOf(
                 R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow
@@ -49,7 +44,6 @@ class Dashboard : AppCompatActivity() {
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        // Inflate the menu; this adds items to the action bar if it is present.
         menuInflater.inflate(R.menu.dashboard, menu)
         return true
     }
